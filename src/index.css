@@ -1,0 +1,15 @@
+* {
+font-family: 'Fira Mono', monospace;
+font-family: 'Noto Sans Mono', monospace;
+font-family: 'Nova Mono', monospace;
+font-family: 'Roboto Mono', monospace;
+};
+
+#foto {
+  max-height: 30px;
+}
+
+#foto:hover {
+  filter: drop-shadow(0 0 2em #343434aa);
+}
+
