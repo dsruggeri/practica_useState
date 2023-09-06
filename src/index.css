@@ -3,7 +3,11 @@ font-family: 'Fira Mono', monospace;
 font-family: 'Noto Sans Mono', monospace;
 font-family: 'Nova Mono', monospace;
 font-family: 'Roboto Mono', monospace;
+
 };
+
+
+
 
 #foto {
   max-height: 30px;
@@ -11,5 +15,32 @@ font-family: 'Roboto Mono', monospace;
 
 #foto:hover {
   filter: drop-shadow(0 0 2em #343434aa);
+}
+
+.tarjeta,
+.titulo {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  
+}
+
+.card {
+  background-color: white;
+  border-color: black;
+}
+
+.botonera {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  padding: 10px;
 }
 

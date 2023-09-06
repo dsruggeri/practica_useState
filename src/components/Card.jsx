@@ -40,25 +40,30 @@ const handleNext = () => {
 
   return (
     
-    <div className='container'>
-        <h1>{info.nombre}</h1>
+    <div className="container">
+    <div className="titulo">
+        <h1>{info.nombre}</h1> 
         <p>{info.descripcion}</p>
-        <div>
-            <h2>Integrantes:</h2>
-            <div className="card col-3 col-sx-12">
+        <h2>Integrantes:</h2>
+    </div>    
+        <div className="tarjeta">
+        <div className="card">
+            
+            
             <img className="card-img-top" src={info.integrantes[indice].foto} id='foto' style={styleimg}></img>
                 <div className="card-body">
                     <h5 className="card-title">{info.integrantes[indice].nombre}</h5>
                     <p className="card-text">Edad: {info.integrantes[indice].edad} años</p>
                 </div>
-                <div className='row'>
-                    <div className='col-6'><button className='btn btn-primary' onClick={handlePrev}> atrás </button></div>
-                    <div className='col-6'> <button className='btn btn-primary' onClick={handleNext}> adelante </button></div>
+                <div className='botonera'>
+                    <button className='btn btn-primary' onClick={handlePrev}> atrás </button>
+                    <button className='btn btn-primary' onClick={handleNext}> adelante </button>
                 </div>    
             </div>
             
         </div>    
     </div>
+    
   )
 }
 

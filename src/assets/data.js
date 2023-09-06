@@ -4,31 +4,31 @@ export const data = {
         {
         "nombre":"Diego Sebastián",
         "edad":36,
-        "foto":"../src/assets/diego.png"
+        "foto":"../src/assets/fotos/diego.png"
         },
         {
         "nombre":"Pablo",
         "edad":46,
-        "foto":"../src/assets/pablo.jpg"
+        "foto":"../src/assets/fotos/pablo.png"
         },
         {
         "nombre":"Ariana",
         "edad":46,
-        "foto":"../src/assets/ariana.jpg"
+        "foto":"../src/assets/fotos/ariana.png"
         },
         {"nombre":"Ágota",
         "edad":88,
-        "foto":"../src/assets/agota.webp"
+        "foto":"../src/assets/fotos/agota.png"
         },
         {
         "nombre":"Aurora",
         "edad":101,
-        "foto":"../src/assets/aurora.jpg"
+        "foto":"../src/assets/fotos/aurora.png"
         },
         {
         "nombre":"Martín",
         "edad":66,
-        "foto":"../src/assets/martin.jpg"
+        "foto":"../src/assets/fotos/martin.png"
         }
     ],
     "descripcion":"Un grupo con horarios chinos"    
