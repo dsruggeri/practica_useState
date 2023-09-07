@@ -4,7 +4,7 @@ export const data = {
         {
         "nombre":"Diego Sebastián",
         "edad":36,
-        "foto":"./src/assets/fotos/diego.png"
+        "foto":"./fotos/diego.png"
         },
         {
         "nombre":"Pablo",
